@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
 ul{
     list-style: none;
     display: flex;
@@ -6,6 +11,7 @@ ul{
     justify-content: center;
     height: 60px;
     background-color: rgb(8, 241, 241);
+    border-bottom: 2px solid black;
 }
 
 li{
@@ -15,4 +21,15 @@ li{
 a{
     text-decoration: none;
     color: black;
+}
+a:hover{
+    border-bottom: 2px solid black;
+    font-size: 20pt;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(94, 151, 151);
+    text-align: center;
 }
